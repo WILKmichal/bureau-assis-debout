@@ -5,8 +5,8 @@ import PopUp from "./components/popUp";
 
 export default function Home() {
   return (
-    <main>
-      <div>
+    <main style={{ height: "100%" }}>
+      <div style={{ height: "100%" }}>
         <Example></Example>
         <PopUp></PopUp>
       </div>
