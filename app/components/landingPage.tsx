@@ -27,13 +27,13 @@ export default function Example() {
                             <div className="flex h-16 justify-between">
                                 <div className="flex">
                                     <div className="flex flex-shrink-0 items-center">
-                                        { /* eslint-disable-next-line @next/next/no-img-element */}
+                                        { /* eslint-disable-next-line */}
                                         <img
                                             className="block h-8 w-auto lg:hidden"
                                             src="./desk-table-svgrepo-com.svg"
                                             alt="Your Company"
                                         />
-                                        { /* eslint-disable-next-line @next/next/no-img-element */}
+                                        { /* eslint-disable-next-line  */}
                                         <img
                                             className="hidden h-8 w-auto lg:block"
                                             src="./desk-table-svgrepo-com.svg"
@@ -123,9 +123,9 @@ export default function Example() {
             </Disclosure>
             <div className="flex-grow">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10 flex flex-col h-full">
-                    <h1 className="text-3xl font-bold leading-tight tracking-tight text-gray-900">Tableau de bord</h1>
-                    <div className="flex-grow">
-                        <div className='mx-auto flex-grow h-full'>
+                    {/*                     <h1 className="text-3xl font-bold leading-tight tracking-tight text-gray-900">Tableau de bord</h1>
+ */}                    <div className="flex-grow">
+                        <div className='mx-auto flex-grow h-full py-8'>
                             <Testt></Testt>
                         </div>
                     </div>
